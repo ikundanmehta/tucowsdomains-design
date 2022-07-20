@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 88%;
+  margin: 0 auto;
+}
+
+header,
+main {
+  background-color: #00096e;
+  color: #fff;
+}
+
+header .container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a:link,
+header a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.logo-description {
+  margin: 15px 0 0 0;
+  font-size: 12px;
+  color: #8590ad;
+}
+
+.logo-link {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+header .logo-link a:hover,
+header .logo-link a:active {
+  color: #e02e00;
+}
+nav a:link,
+nav a:visited {
+  padding: 10px;
+}
+
+nav a:hover,
+nav a:active {
+  border-bottom: 2px solid #e02e00;
+}
+
+/* Hero section */
+main {
+  padding-top: 50px;
+  height: 100vh;
+}
+
+main .container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.search-box {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.search-box input,
+.search-box button {
+  font-size: 18px;
+  padding: 13px;
+  border: none;
+  font-family: inherit;
+}
+
+.search-box button {
+  background-color: #e02e00;
+  color: #fff;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+.learn-more {
+  color: #e02e00;
+  text-decoration: none;
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.learn-more-icon {
+  height: 24px;
+  width: 24px;
+  stroke: #e02e00;
+}
+
+/* Secondary Section */
+section {
+  background-color: #fff;
+}
+
+section .container {
+  background-color: #fff;
+  width: 900px;
+  padding: 100px 150px;
+  border-bottom: 1px solid rgb(222, 222, 222);
+
+  transform: translate(0, -25%);
+}
+
+section .container h2 {
+  font-size: 48px;
+  color: #00096e;
+  margin: 0 0 36px 0;
+}
+
+section .container p {
+  font-size: 16px;
+  margin: 0 0 24px 0;
+}
+
+section .search-box input {
+  border: 0.1px solid #8590ad;
+  padding: 12.5px 13px;
+}
+
+/* Aside styling */
+aside {
+  margin-top: -50px; /* Reducing margin as we have used trasform:traslate() to move the `main .container` upward */
+}
+
+aside .container {
+  width: 900px;
+  padding: 0 150px 100px 150px;
+}
+
+aside .container h2 {
+  color: #00096e;
+  font-size: 36px;
+  margin: 32px 0 16px 0;
+}
+
+aside .container p {
+  line-height: 1.5;
+  margin: 0 0 18px 0;
+}
+
+aside .container h2:nth-last-child(2) {
+  margin-top: 64px;
+}
+
+aside .container a:link,
+aside .container a:visited {
+  color: #e02e00;
+}
+
+aside .container a:hover,
+aside .container a:active {
+  color: #00096e;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f8f8;
+}
+
+footer .container {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+footer .container p {
+  line-height: 1.5;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.footer-link {
+  margin-top: 16px;
+}
+
+.footer-link a:link,
+.footer-link a:visited {
+  color: #00096e;
+  font-size: 16px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.footer-link a:hover,
+.footer-link a:active {
+  text-decoration: underline;
+}
