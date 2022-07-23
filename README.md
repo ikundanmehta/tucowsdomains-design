@@ -1,7 +1,7 @@
 # Tucowsdomains Homepage design
 
-[Visit site](https://ikundanmehta.github.io/tucowsdomains-design/)
+[**Visit Homepage clone →**](https://ikundanmehta.github.io/tucowsdomains-design/)
 
-![Tucowsdomain homepage](https://ikundanmehta.github.io/tucowsdomains-design/img/tucows-homepage.png)
+Tucows operates as a wholesale Registrar, with a network of affiliated Resellers (also known as Domain Providers) that facilitate the registration process and sell domains to the public.
 
-####Learning Phase of HTML & CSS.
+![Tucowsdomain homepage](https://ikundanmehta.github.io/tucowsdomains-homepage/img/tucows-homepage.png)
